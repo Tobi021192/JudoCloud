@@ -1,6 +1,6 @@
 # JUDO Cloud für Home Assistant
 
-Version 0.3.2
+Version 0.3.3
 
 Inoffizielle Custom Integration für ältere JUDO-Connectivity-Module (z. B. eWAC
 FW 1.13), die über das myJUDO-Portal erreichbar sind, aber keine lokale
@@ -88,3 +88,18 @@ Die Protokoll- und Registerdekodierung basiert auf dem MIT-lizenzierten Projekt
 Das Paket enthält ein lokales JUDO-Symbol und -Logo in normaler sowie
 hochauflösender Ausführung. Home Assistant verwendet lokale Branding-Dateien
 bei Custom Integrations ab Version 2026.3 automatisch.
+
+## HACS-Repository
+
+Das Repository ist für HACS wie folgt aufgebaut:
+
+```text
+custom_components/judo_cloud/
+README.md
+LICENSE
+hacs.json
+```
+
+Der Inhalt dieses Pakets muss entpackt im Stammverzeichnis des GitHub-
+Repositories liegen. Die ZIP-Datei selbst darf dort nicht anstelle der
+Verzeichnisse abgelegt werden.
